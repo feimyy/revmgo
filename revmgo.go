@@ -3,7 +3,7 @@ package revmgo
 import (
 	"fmt"
 	"github.com/revel/revel"
-	"gopkg.in/mgo.v2"
+       mgo "gopkg.in/mgo.v2"
 	"gopkg.in/mgo.v2/bson"
 	"reflect"
 )
