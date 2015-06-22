@@ -3,11 +3,11 @@ package tests
 import (
 	"github.com/jgraham909/revmgo"
 	"github.com/jgraham909/revmgo/testapp/app/models"
-	"github.com/revel/revel"
+	"github.com/revel/revel/testing"
 )
 
 type AppTest struct {
-	revel.TestSuite
+	testing.TestSuite
 }
 
 func (t *AppTest) Before() {
